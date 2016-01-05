@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">StayInTouch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_header_text">Drawer Header</string>
+    <string name="second_activity_text">Joe Koshakow</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="email_text">Send a message</string>
+    <string name="stalkme_text">stalk me:</string>
+    <string name="searchforAIT_hint">Search for AIT members &#8230;</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_about">About</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_ait_links">AIT Links</string>
+    <string name="nav_website">Website</string>
+    <string name="nav_moodle">Moodle</string>
+    <string name="nav_promo">Promo Video</string>
+    <string name="nav_facebook">Facebook</string>
+    <string name="txt_about">AIT App Competition submission by Jason Wangsadinata</string>
+    <string name="txt_help">Click on the name to find out about them..</string>
+    <string name="action_hide">Hide</string>
+    <string name="hru_drawer">Welcome, how are you today?</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="wrongpassword_login">Incorrect password</string>
+    <string name="emptypassword_login">The password should not be empty</string>
+    <string name="password_login">aitfall2015</string>
+    <string name="password_hint">Password</string>
+    <string name="action_back">Back</string>
+    <string name="about_this_app">About this app</string>
+    <string name="about4_line">This app is project done by Jason Wangsadinata for the AIT Mobile Software Development App Competition</string>
+    <string name="about3_line">This app allows you to check out on your friends, your cool professors or even your favorite staff and send them a message, or keep in touch with them through popular social media. It is a simple way to stay connected.</string>
+    <string name="about2_line">The reason for creating this app, is for all AIT students, to still remember all the good times, all the great friends and memories that we have made in this semester. I certainly hope that we can still stay in touch (hence the name of the app) even until we have left AIT.</string>
+    <string name="about1_line">AIT was such a wonderful program. Many students from different schools, different background came to this program, and become very close friends. With the end of the semester approaching, many of us have come to the realization that we will eventually have to go to our separate ways.</string>
+    <string name="ait_website">http://www.ait-budapest.com</string>
+    <string name="ait_moodle">http://15fall.ait-budapest.com</string>
+    <string name="youtube_ait">Zm3AF7M81yE</string>
+    <string name="facebook_ait">aitbudapest</string>
+
+</resources>

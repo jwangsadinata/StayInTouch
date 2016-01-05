@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_search"
+            android:checked="true"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/nav_search" />
+        <item
+            android:id="@+id/navigation_item_about"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/navigation_item_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/nav_help" />
+    </group>
+
+    <item android:title="@string/nav_ait_links">
+        <menu>
+            <item
+                android:id="@+id/navigation_item_website"
+                android:icon="@drawable/ic_http_black_24dp"
+                android:title="@string/nav_website" />
+            <item
+                android:id="@+id/navigation_item_moodle"
+                android:icon="@drawable/ic_cloud_queue_black_24dp"
+                android:title="@string/nav_moodle" />
+            <item
+                android:id="@+id/navigation_item_youtube"
+                android:icon="@drawable/ic_ondemand_video_black_24dp"
+                android:title="@string/nav_promo"/>
+            <item
+                android:id="@+id/navigation_item_facebook"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="@string/nav_facebook" />
+
+        </menu>
+    </item>
+
+</menu>

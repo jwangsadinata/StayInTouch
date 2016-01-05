@@ -1,0 +1,188 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stayintouch_background">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:src="@drawable/menu_img" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingStart="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPhoto"
+                    android:layout_width="182dp"
+                    android:layout_height="218dp" />
+
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:numStars="5"
+                android:stepSize="0.1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="#aaaaaa">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvCardViewName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/btnMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/email_text"
+                        android:textAllCaps="false"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/stalkme_text"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnWebsite"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/website_button"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnLinkedin"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/linkedin_button"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnFacebook"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/facebook_button"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnGithub"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/github_button"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnTwitter"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/twitter_button"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnTumblr"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/tumblr_button"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
