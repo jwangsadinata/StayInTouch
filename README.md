@@ -1,4 +1,4 @@
 # StayInTouch
 A submission for the AIT App Competition - Fall 2015
 
-StayInTouch
+![Splash](https://github.com/jwangsadinata/StayInTouch/blob/master/coverapp.png)
